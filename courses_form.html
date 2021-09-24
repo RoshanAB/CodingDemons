@@ -59,68 +59,35 @@
         </ul>
       </div>
     </nav>
-    <form style="color:#11324D ;
-    font-weight:bold;
-    font-size:x-large;">
+    <form style="color: #11324d; font-weight: bold; font-size: x-large">
       <div class="form-group row px-5 mt-5">
         <label for="inputText" class="col-sm-2 col-form-label"
-          >Video name</label
+          >Course name</label
         >
         <div class="col-sm-10">
           <input type="text" class="form-control" id="inputText" />
         </div>
       </div>
-      <div class="form-group row m-5" >
-        <div class="input-group mb-3">
-          <div class="custom-file">
-            <input
-              type="file"
-              class="custom-file-input"
-              id="inputGroupFile02"
-            />
-            <label
-              class="custom-file-label"
-              for="inputGroupFile02"
-              aria-describedby="inputGroupFileAddon02"
-              >Choose file</label
-            >
-          </div>
-          
-        </div>
-      </div>
+
       <div class="form-group row px-5">
         <label for="inputText" class="col-sm-2 col-form-label"
-          >Video Cost</label
+          >Course Description</label
         >
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="inputText" />
+          <textarea
+            class="form-control"
+            aria-label="With textarea"
+            rows="7"
+          ></textarea>
         </div>
       </div>
-      <div class="form-group row p-3 my-5">
-        <div class="form-check m-auto">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="exampleRadios"
-            id="exampleRadios1"
-            value="option1"
-            checked
-          />
-          <label class="form-check-label" for="exampleRadios1">
-            Public
-          </label>
-        </div>
-        <div class="form-check m-auto">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="exampleRadios"
-            id="exampleRadios2"
-            value="option2"
-          />
-          <label class="form-check-label" for="exampleRadios2">
-            Private
-          </label>
+
+      <div class="form-group row px-5 my-5">
+        <label for="url" class="col-sm-2 col-form-label"
+          >Enter url</label
+        >
+        <div class="col-sm-10">
+          <input type="url" class="form-control" id="url" placeholder="https://example.com"/>
         </div>
       </div>
 
@@ -128,7 +95,7 @@
         <button
           type="submit"
           class="btn btn-lg btn-block col-md-6"
-          style="background-color:#11324D;color: #E7E0C9;size: 150px;"
+          style="background-color: #11324d; color: #e7e0c9; size: 150px"
         >
           Upload
         </button>
