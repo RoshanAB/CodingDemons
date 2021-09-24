@@ -1,0 +1,24 @@
+.quiz-tech{
+    margin-top:2rem;
+}
+
+.tech{
+    margin-bottom:2rem;
+    font-family: 'Lora', serif;    
+font-weight: bold;}
+
+
+.card{
+    width:85%;
+    background-color: rgb(90, 235, 90);
+    
+}
+
+
+.btn{
+    background-color: #fff;
+}
+
+.innerbox{
+    width:90%;
+}
